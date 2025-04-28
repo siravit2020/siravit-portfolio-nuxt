@@ -1,0 +1,83 @@
+{
+  "body": [
+    {
+      "topic": "Languages",
+      "list": [
+        "Dart",
+        "Kotlin",
+        "Java",
+        "JavaScript",
+        "TypeScript",
+        "HTML",
+        "CSS"
+      ]
+    },
+    {
+      "topic": "Frameworks & Libraries",
+      "list": [
+        "Flutter",
+        "Vue.js",
+        "Nuxt.js",
+        "Nest.js",
+        "React.js",
+        "Next.js",
+        "Tailwind CSS",
+        "Vuetify",
+        "TypeORM"
+      ]
+    },
+    {
+      "topic": "Architecture & Design",
+      "list": ["MVVM", "Clean Architecture", "SOLID Principles"]
+    },
+    {
+      "topic": "State Management",
+      "list": ["Bloc", "Riverpod", "Provider", "GetX", "Pinia"]
+    },
+    {
+      "topic": "Testing",
+      "list": ["Unit Testing", "Integration Testing"]
+    },
+    {
+      "topic": "API & SDK Integration",
+      "list": ["Facebook API", "Google Map API", "Agora.io", "Socket.io"]
+    },
+    {
+      "topic": "Database",
+      "list": [
+        "Firebase Firestore",
+        "Firebase Realtime Database",
+        "MySQL",
+        "Isar"
+      ]
+    },
+    {
+      "topic": "Cloud & Deployment",
+      "list": [
+        "Firebase",
+        "Google Cloud Platform (GCP)",
+        "Google Play Store",
+        "Apple App Store"
+      ]
+    },
+    {
+      "topic": "DevOps",
+      "list": ["Git", "CI/CD", "GCP Cloud Build", "GCP Cloud Run", "Codemagic"]
+    },
+    {
+      "topic": "Tools",
+      "list": [
+        "VS Code",
+        "Android Studio",
+        "Postman",
+        "Figma",
+        "Sourcetree",
+        "Jira",
+        "ClickUp",
+        "ChatGPT",
+        "GitHub Copilot",
+        "Widgetbook"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "body": [
+    {
+      "year": "May 2023 - Oct 2023",
+      "company": "FUNCH TECH (Freelance)",
+      "position": "Frontend Developer",
+      "description": [
+        "Built internal web systems using Vue.js for Easycard's backend operations.",
+        "Focused on responsive UI and clear user experience."
+      ]
+    },
+    {
+      "year": "Jul 2022 - Nov 2022",
+      "company": "Rakkar Digital (Outsource)",
+      "position": "Software Engineer",
+      "description": [
+        "Built the company website and CMS using Nuxt.js.",
+        "Transformed requirements into clean and scalable frontend implementations."
+      ]
+    }
+  ]
+}

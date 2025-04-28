@@ -1,0 +1,24 @@
+@import "tailwindcss";
+
+html {
+  scroll-behavior: smooth;
+}
+
+:root {
+  font-family: "Barlow", sans-serif !important;
+}
+
+@theme {
+  --color-text-primary: #252b31;
+  --color-app-secondary: #4d5355c2;
+  --color-accent: #d49c6b;
+  --color-transparent: #ffffff00;
+  --color-app-bar: #252b31ec;
+  --color-app-bar-white: #ffffffec;
+  --color-background-gray: #ffeff0f2;
+}
+
+@use "vuetify" with (
+  $color-pack: false,
+  $utilities: false
+);

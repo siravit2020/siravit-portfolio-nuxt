@@ -1,0 +1,49 @@
+{
+  "body": [
+    {
+      "year": "Mar 2024 - present",
+      "company": "Zimpligital",
+      "position": "Mobile Application Developer (Flutter)",
+      "description": [
+        "Delivered core features for a large-scale cross-platform app, including authentication, calling, and message reactions.",
+        "Refactored legacy code using Clean Architecture and SOLID principles for long-term maintainability.",
+        "Created a reusable design system for consistent UI across the app.",
+        "Improved code quality with unit and integration testing.",
+        "Adopted new tools and packages to streamline development and boost team productivity."
+      ]
+    },
+    {
+      "year": "Sep 2021 - Feb 2024",
+      "company": "SkinX",
+      "position": "Software Engineer",
+      "description": [
+        "Developed and maintained cross-platform features for a large-scale mobile application with hundreds of thousands of active users.",
+        "Designed and implemented complex systems using Flutter, Vue.js, and Nest.js.",
+        "Contributed to the majority of features in the application, ensuring high performance and usability.",
+        "Collaborated closely with product owners and UX/UI designers to gather requirements and deliver user-centric solutions.",
+        "Set up CI/CD pipelines for both web and mobile platforms to automate builds and deployments.",
+        "Established scalable architecture and project structure following best practices in Flutter development.",
+        "Researched and adopted tools and technologies to improve development workflow and team efficiency."
+      ]
+    },
+    {
+      "year": "Jun 2021 - Aug 2021",
+      "company": "SkinX (part time)",
+      "position": "Software Engineer",
+      "description": [
+        "Developed new features and optimized app performance using Flutter.",
+        "Redesigned UI of existing features for better usability."
+      ]
+    },
+    {
+      "year": "Jan 2021 - Apr 2021",
+      "company": "MFEC Public Company Limited",
+      "position": "Flutter Developer (Internship)",
+      "description": [
+        "Developed mobile apps using Flutter, with custom UI, animations, and platform-specific integrations.",
+        "Researched third-party APIs and Firebase services.",
+        "Built automated tests with Dart to ensure app quality."
+      ]
+    }
+  ]
+}
