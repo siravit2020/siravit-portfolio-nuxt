@@ -28,5 +28,8 @@
   },
   "devDependencies": {
     "vuetify": "^3.8.1"
+  },
+  "optionalDependencies": {
+    "@rollup/rollup-linux-x64-musl": "4.40.1"
   }
 }
