@@ -13,14 +13,16 @@ const skill = (data.value?.body ?? []) as Skill[];
 
 <template>
   <AppContainer>
-    <TopicComponent>Skills</TopicComponent>
-    <div class="flex sm:flex-row flex-col sm:justify-between">
-      <div class="flex flex-col flex-1/2 gap-y-6 px-4">
-        <SkillComponent :skill="skill.slice(0, 3)" />
+    <section aria-labelledby="skills-heading" class="w-full">
+      <TopicComponent id="skills-heading">Skills</TopicComponent>
+      <div class="flex sm:flex-row flex-col sm:justify-between">
+        <div class="flex flex-col flex-1/2 gap-y-6 px-4">
+          <SkillComponent :skill="skill.slice(0, 3)" />
+        </div>
+        <div class="flex flex-col flex-1/2 gap-y-6 px-4">
+          <SkillComponent :skill="skill.slice(3)" />
+        </div>
       </div>
-      <div class="flex flex-col flex-1/2 gap-y-6 px-4">
-        <SkillComponent :skill="skill.slice(3)" />
-      </div>
-    </div>
+    </section>
   </AppContainer>
 </template>

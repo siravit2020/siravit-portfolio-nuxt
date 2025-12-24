@@ -30,8 +30,9 @@ onUnmounted(() => {
 </script>
 <template>
   <AppContainer>
-    <TopicComponent>Projects</TopicComponent>
-    <v-tabs
+    <section aria-labelledby="projects-heading" class="w-full">
+      <TopicComponent id="projects-heading">Projects</TopicComponent>
+      <v-tabs
       v-model="tab"
       grow
       data-aos="fade-up"
@@ -108,5 +109,6 @@ onUnmounted(() => {
         </div>
       </v-tabs-window-item>
     </v-tabs-window>
+    </section>
   </AppContainer>
 </template>

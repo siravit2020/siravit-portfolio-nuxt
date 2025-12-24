@@ -1,4 +1,4 @@
-<script setup>
+<script setup lang="ts">
 import AppContainer from "./AppContainer.vue";
 import SocialButton from "./SocialButton.vue";
 import { VueWriter } from "vue-writer";
@@ -9,7 +9,8 @@ import { VueWriter } from "vue-writer";
     <NuxtImg
       data-aos="fade-up"
       src="/images/siravit.jpg"
-      class="h-[40vw] max-w-[250px] max-h-[250px] w-[40vw] rounded-full bg-background-gray"
+      alt="Siravit Pichphol - Software Engineer"
+      class="h-[40vw] max-w-62.5 max-h-62.5 w-[40vw] rounded-full bg-background-gray"
     />
     <div class="flex flex-col items-center mt-10">
       <h1
@@ -41,24 +42,36 @@ import { VueWriter } from "vue-writer";
         Unit Testing and automated CI/CD pipelines.
       </p>
 
-      <div class="flex flex-row mt-10" data-aos="fade-up" data-aos-delay="300">
+      <nav
+        class="flex flex-row mt-10"
+        data-aos="fade-up"
+        data-aos-delay="300"
+        aria-label="Social links"
+      >
         <SocialButton
           icon-svg="/icons/github.svg"
           link="https://github.com/siravit2020?tab=repositories"
+          aria-label="GitHub Profile"
           class="mx-3"
         />
         <SocialButton
           icon-svg="/icons/linkedin.svg"
           link="https://www.linkedin.com/in/siravit-pichphol-180429211/"
+          aria-label="LinkedIn Profile"
           class="mr-3"
         />
         <SocialButton
           icon-svg="/icons/email.svg"
           link="mailto:siravitpichphol@gmail.com"
+          aria-label="Send Email"
           class="mr-3"
         />
-        <SocialButton icon-svg="/icons/phone.svg" link="tel:0851325654" />
-      </div>
+        <SocialButton
+          icon-svg="/icons/phone.svg"
+          link="tel:0851325654"
+          aria-label="Call Phone"
+        />
+      </nav>
     </div>
   </AppContainer>
 </template>

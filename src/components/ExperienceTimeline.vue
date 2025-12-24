@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { ref } from "vue";
+import { ref, onMounted, onUnmounted, type PropType } from "vue";
 import type { Experience } from "../interfaces/Experiences";
 
 const isSmallScreen = ref(false);
@@ -11,6 +11,10 @@ const updateScreenSize = () => {
 onMounted(() => {
   updateScreenSize();
   window.addEventListener("resize", updateScreenSize);
+});
+
+onUnmounted(() => {
+  window.removeEventListener("resize", updateScreenSize);
 });
 
 defineProps({
