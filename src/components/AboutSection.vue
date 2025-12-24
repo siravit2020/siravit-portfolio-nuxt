@@ -32,22 +32,30 @@ import { VueWriter } from "vue-writer";
         data-aos-delay="200"
         class="sm:text-base text-sm text-center text-text-primary px-4 max-w-4xl"
       >
-        I am a dedicated software engineer specializing in mobile application
-        development. I focus on building high-quality, scalable systems by
-        following best practices and emphasizing maintainable code. Driven by
-        continuous learning, I constantly seek new tools and techniques to
-        deliver better solutions for users and businesses.
+        High-impact Software Engineer specializing in Flutter with a proven
+        track record of delivering high-scale applications (800k+ downloads).
+        Expert in Clean Architecture, the Firebase Ecosystem, and sophisticated
+        State Management (Bloc/GetX). Highly experienced in engineering
+        real-time communication features (VoIP/Messaging) and implementing
+        End-to-End Encryption (E2EE). Strong advocate for code quality through
+        Unit Testing and automated CI/CD pipelines.
       </p>
 
       <div class="flex flex-row mt-10" data-aos="fade-up" data-aos-delay="300">
         <SocialButton
-          icon-svg="/icons/line.svg"
-          link="https://line.me/ti/p/X1KcXqED80"
-        />
-        <SocialButton
           icon-svg="/icons/github.svg"
           link="https://github.com/siravit2020?tab=repositories"
           class="mx-3"
+        />
+        <SocialButton
+          icon-svg="/icons/linkedin.svg"
+          link="https://www.linkedin.com/in/siravit-pichphol-180429211/"
+          class="mr-3"
+        />
+        <SocialButton
+          icon-svg="/icons/email.svg"
+          link="mailto:siravitpichphol@gmail.com"
+          class="mr-3"
         />
         <SocialButton icon-svg="/icons/phone.svg" link="tel:0851325654" />
       </div>

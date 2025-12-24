@@ -38,7 +38,7 @@ onUnmounted(() => {
       color="#252b31"
       class="mb-14 w-full sm:text-lg text-base"
     >
-      <v-tab v-for="item in tabs" :key="item.title" :value="item.title">
+      <v-tab v-for="(item,index) in tabs" :key="index" :value="index">
         {{ item.title }}
       </v-tab>
     </v-tabs>
@@ -47,7 +47,7 @@ onUnmounted(() => {
       <v-tabs-window-item
         v-for="(project, index) in tabs"
         :key="index"
-        :value="project.title"
+        :value="index"
       >
         <div
           v-for="(item, index2) in project.projectList"

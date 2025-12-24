@@ -1,38 +1,25 @@
 {
   "body": [
     {
-      "year": "Mar 2024 - present",
+      "year": "Mar 2024 - Present",
       "company": "Zimpligital",
       "position": "Mobile Application Developer (Flutter)",
       "description": [
-        "Delivered core features for a large-scale cross-platform app, including authentication, calling, and message reactions.",
-        "Refactored legacy code using Clean Architecture and SOLID principles for long-term maintainability.",
-        "Created a reusable design system for consistent UI across the app.",
-        "Improved code quality with unit and integration testing.",
-        "Adopted new tools and packages to streamline development and boost team productivity."
+        "Architectural Leadership: Spearheaded the complete migration of legacy code modules to Clean Architecture, significantly enhancing system scalability and testability.",
+        "Offline-First Strategy: Engineered a high-performance local data layer with ISAR Database, optimizing real-time message caching for a seamless offline experience.",
+        "Design System: Led the collaboration with UX/UI designers to build a unified Design System and reusable widget library, significantly cutting development time and ensuring UI/UX consistency.",
+        "Real-time & Security: Architected low-latency messaging via Socket.io/LiveKit, incorporating secure authentication, message reactions, and E2EE for privacy and engagement."
       ]
     },
     {
-      "year": "Sep 2021 - Feb 2024",
-      "company": "SkinX",
-      "position": "Software Engineer",
+      "year": "Jun 2021 - Feb 2024",
+      "company": "SkinX (Thailand's Leading Telemedicine Platform)",
+      "position": "Software Engineer (Promoted from Part-time)",
       "description": [
-        "Developed and maintained cross-platform features for a large-scale mobile application with hundreds of thousands of active users.",
-        "Designed and implemented complex systems using Flutter, Vue.js, and Nest.js.",
-        "Contributed to the majority of features in the application, ensuring high performance and usability.",
-        "Collaborated closely with product owners and UX/UI designers to gather requirements and deliver user-centric solutions.",
-        "Set up CI/CD pipelines for both web and mobile platforms to automate builds and deployments.",
-        "Established scalable architecture and project structure following best practices in Flutter development.",
-        "Researched and adopted tools and technologies to improve development workflow and team efficiency."
-      ]
-    },
-    {
-      "year": "Jun 2021 - Aug 2021",
-      "company": "SkinX (part time)",
-      "position": "Software Engineer",
-      "description": [
-        "Developed new features and optimized app performance using Flutter.",
-        "Redesigned UI of existing features for better usability."
+        "High-Scale Impact: Served as a core developer for a platform with 800k+ downloads and 50k+ MAU, directly contributing to 80% of all major core features.",
+        "Ecosystem Management: Developed and maintained the entire Flutter ecosystem, including Client and Doctor apps for both iOS and Android using Bloc and GetX.",
+        "Telehealth & E-commerce: Integrated stable Voice/Video features via Agora.io and implemented secure end-to-end shopping flows with integrated payment gateways.",
+        "DevOps: Automated deployment to App Store/Google Play via CI/CD pipelines, reducing manual release overhead."
       ]
     },
     {
@@ -40,9 +27,7 @@
       "company": "MFEC Public Company Limited",
       "position": "Flutter Developer (Internship)",
       "description": [
-        "Developed mobile apps using Flutter, with custom UI, animations, and platform-specific integrations.",
-        "Researched third-party APIs and Firebase services.",
-        "Built automated tests with Dart to ensure app quality."
+        "Developed E-commerce and Video Streaming apps and built Platform Channels for native Android/iOS integration."
       ]
     }
   ]

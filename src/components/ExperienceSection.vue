@@ -9,17 +9,19 @@ const isSmallScreen = ref(false);
 
 const { data: professionalExperienceData } = await useAsyncData(
   "experience",
-  () => {
-    return queryCollection("experience").first();
+  async () => {
+    const result = await queryCollection("experience").first();
+    return result ?? null;
   }
 );
 
 const { data: freelanceData } = await useAsyncData(
   "experience_freelance",
-  () => {
-    return queryCollection("experience")
-      .where("stem", "=", "experience/experience_freelance")
+  async () => {
+    const result = await queryCollection("experience")
+      .where("stem", "=", "experience/experiences_freelance")
       .first();
+    return result ?? null;
   }
 );
 
