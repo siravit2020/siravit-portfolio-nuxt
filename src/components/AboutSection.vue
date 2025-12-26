@@ -6,12 +6,14 @@ import { VueWriter } from "vue-writer";
 
 <template>
   <AppContainer class="min-h-screen">
-    <NuxtImg
-      data-aos="fade-up"
-      src="/images/siravit.jpg"
-      alt="Siravit Pichphol - Software Engineer"
-      class="h-[40vw] max-w-62.5 max-h-62.5 w-[40vw] rounded-full bg-background-gray"
-    />
+    <div class="relative inline-block">
+      <NuxtImg
+        data-aos="fade-up"
+        src="/images/siravit.jpg"
+        alt="Siravit Pichphol - Software Engineer"
+        class="h-[40vw] max-w-62.5 max-h-62.5 w-[40vw] rounded-full bg-background-gray shadow-glow"
+      />
+    </div>
     <div class="flex flex-col items-center mt-10">
       <h1
         data-aos="fade-up"
@@ -37,9 +39,8 @@ import { VueWriter } from "vue-writer";
         track record of delivering high-scale applications (800k+ downloads).
         Expert in Clean Architecture, the Firebase Ecosystem, and sophisticated
         State Management (Bloc/GetX). Highly experienced in engineering
-        real-time communication features (VoIP/Messaging) and implementing
-        End-to-End Encryption (E2EE). Strong advocate for code quality through
-        Unit Testing and automated CI/CD pipelines.
+        real-time communication features (VoIP/Messaging) and building secure,
+        scalable mobile solutions with automated CI/CD pipelines.
       </p>
 
       <nav

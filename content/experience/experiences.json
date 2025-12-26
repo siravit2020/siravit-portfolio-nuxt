@@ -5,10 +5,10 @@
       "company": "Zimpligital",
       "position": "Mobile Application Developer (Flutter)",
       "description": [
-        "Architectural Leadership: Spearheaded the complete migration of legacy code modules to Clean Architecture, significantly enhancing system scalability and testability.",
-        "Offline-First Strategy: Engineered a high-performance local data layer with ISAR Database, optimizing real-time message caching for a seamless offline experience.",
-        "Design System: Led the collaboration with UX/UI designers to build a unified Design System and reusable widget library, significantly cutting development time and ensuring UI/UX consistency.",
-        "Real-time & Security: Architected low-latency messaging via Socket.io/LiveKit, incorporating secure authentication, message reactions, and E2EE for privacy and engagement."
+        "Core Feature Engineering: Led the development of critical features for a secure messaging platform, including low-latency VoIP calling, secure Authentication flows, and interactive Message Reactions using Socket.io and LiveKit.",
+        "Architectural Leadership: Spearheaded the complete migration of legacy code modules to Clean Architecture, significantly enhancing system scalability and ensuring long-term code maintainability.",
+        "Offline-First Strategy: Engineered a high-performance local data layer using ISAR Database, optimizing real-time message caching to provide a seamless and responsive user experience even without connectivity.",
+        "Design System & Efficiency: Collaborated with UI/UX designers to establish a Unified Design System and reusable widget library, which substantially reduced development time and ensured UI consistency across the application."
       ]
     },
     {

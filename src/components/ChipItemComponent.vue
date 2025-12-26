@@ -7,7 +7,9 @@ defineProps({
 });
 </script>
 <template>
-  <div class="sm:text-base text-sm px-4 py-2 rounded-full bg-zinc-100">
+  <div
+    class="sm:text-base text-sm px-4 py-2 rounded-full bg-zinc-100 hover:scale-105 transition-transform cursor-default"
+  >
     {{ skill }}
   </div>
 </template>

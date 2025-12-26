@@ -24,7 +24,7 @@
     },
     {
       "topic": "Real-time/Comms",
-      "list": ["Socket.io", "LiveKit", "Agora.io", "VoIP", "E2EE"]
+      "list": ["Socket.io", "LiveKit", "Agora.io", "VoIP", "Firebase realtime"]
     },
     {
       "topic": "Web/Backend",

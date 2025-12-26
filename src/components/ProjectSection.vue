@@ -13,19 +13,20 @@ const projects = (data.value?.body ?? []) as ProjectCategory[];
 
 const tabs = ref(projects);
 const tab = ref(0);
-const windowWidth = ref(0);
 
-const handleResize = () => {
-  windowWidth.value = window.innerWidth;
+const isSmallScreen = ref(false);
+
+const updateScreenSize = () => {
+  isSmallScreen.value = window.innerWidth < 768;
 };
 
 onMounted(() => {
-  window.addEventListener("resize", handleResize);
-  handleResize();
+  updateScreenSize();
+  window.addEventListener("resize", updateScreenSize);
 });
 
 onUnmounted(() => {
-  window.removeEventListener("resize", handleResize);
+  window.removeEventListener("resize", updateScreenSize);
 });
 </script>
 <template>
@@ -33,82 +34,86 @@ onUnmounted(() => {
     <section aria-labelledby="projects-heading" class="w-full">
       <TopicComponent id="projects-heading">Projects</TopicComponent>
       <v-tabs
-      v-model="tab"
-      grow
-      data-aos="fade-up"
-      color="#252b31"
-      class="mb-14 w-full sm:text-lg text-base"
-    >
-      <v-tab v-for="(item,index) in tabs" :key="index" :value="index">
-        {{ item.title }}
-      </v-tab>
-    </v-tabs>
-
-    <v-tabs-window v-model="tab" data-aos="fade-up">
-      <v-tabs-window-item
-        v-for="(project, index) in tabs"
-        :key="index"
-        :value="index"
+        v-model="tab"
+        grow
+        data-aos="fade-down"
+        color="#252b31"
+        class="mb-14 w-full sm:text-lg text-base"
       >
-        <div
-          v-for="(item, index2) in project.projectList"
-          :key="index2"
-          class="flex sm:flex-row flex-col sm:gap-x-10 gap-y-10"
-          style="
-            width: 100%;
-            margin-bottom: 80px;
-            justify-content: center;
-            align-items: center;
-          "
-        >
-          <div class="flex-3/6 max-h-96 flex justify-center">
-            <NuxtImg
-              data-aos="fade-up"
-              :src="`/images/${item.image}`"
-              class="rounded-lg h-96 object-scale-down"
-            />
-          </div>
+        <v-tab v-for="(item, index) in tabs" :key="index" :value="index">
+          {{ item.title }}
+        </v-tab>
+      </v-tabs>
 
+      <v-tabs-window v-model="tab" data-aos="zoom-in" class="min-h-svh">
+        <v-tabs-window-item
+          v-for="(project, index) in tabs"
+          :key="index"
+          :value="index"
+        >
           <div
-            data-aos="fade-up"
-            class="flex-3/6 flex flex-col items-start w-full"
+            v-for="(item, index2) in project.projectList"
+            :key="index2"
+            class="flex sm:flex-row flex-col sm:gap-x-10 gap-y-10"
+            style="
+              width: 100%;
+              margin-bottom: 80px;
+              justify-content: center;
+              align-items: center;
+            "
           >
             <div
-              v-if="item.title"
-              class="sm:text-3xl text-2xl font-bold text-text-primary"
+              class="sm:flex-3/6 flex justify-center bg-zinc-50 p-4! rounded-3xl w-full"
+              :data-aos="isSmallScreen ? 'fade-up' : 'fade-right'"
             >
-              {{ item.title }}
-            </div>
-            <div
-              v-if="item.subTitle"
-              class="sm:text-base text-sm text-text-primary mb-1"
-            >
-              {{ item.subTitle }}
-            </div>
-            <div class="flex flex-row gap-2 mb-4">
-              <a
-                v-for="(link, i) in item.links"
-                :key="i"
-                :href="link.linkTo"
-                target="_blank"
-                class="sm:text-base text-sm text-accent"
-                >{{ link.title }}</a
-              >
-            </div>
-            <div class="sm:text-base text-sm mb-4">
-              {{ item.description }}
-            </div>
-            <div class="flex flex-wrap gap-2">
-              <ChipItemComponent
-                v-for="(tool, i) in item.tools"
-                :key="i"
-                :skill="tool"
+              <NuxtImg
+                :src="`/images/${item.image}`"
+                class="h-96 object-scale-down rounded-2xl"
               />
             </div>
+
+            <div
+              :data-aos="isSmallScreen ? 'fade-up' : 'fade-left'"
+              class="sm:flex-3/6 flex flex-col items-start w-full"
+            >
+              <div
+                v-if="item.title"
+                class="sm:text-3xl text-2xl font-bold text-text-primary"
+              >
+                {{ item.title }}
+              </div>
+              <div
+                v-if="item.subTitle"
+                class="sm:text-base text-sm text-text-primary mb-1"
+              >
+                {{ item.subTitle }}
+              </div>
+              <div class="flex flex-row gap-2 mb-4">
+                <a
+                  v-for="(link, i) in item.links"
+                  :key="i"
+                  :href="link.linkTo"
+                  target="_blank"
+                  class="sm:text-base text-sm text-accent"
+                  >{{ link.title }}</a
+                >
+              </div>
+              <div class="sm:text-base text-sm mb-4">
+                {{ item.description }}
+              </div>
+              <div class="flex flex-wrap gap-2">
+                <ChipItemComponent
+                  v-for="(tool, i) in item.tools"
+                  :key="i"
+                  :skill="tool"
+                  data-aos="fade-up"
+                  :data-aos-delay="i * 50"
+                />
+              </div>
+            </div>
           </div>
-        </div>
-      </v-tabs-window-item>
-    </v-tabs-window>
+        </v-tabs-window-item>
+      </v-tabs-window>
     </section>
   </AppContainer>
 </template>

@@ -1,11 +1,11 @@
 {
   "body": [
     {
-      "title": "Flutter",
+      "title": "Professional",
       "projectList": [
         {
           "title": "UChat",
-          "subTitle": "Mobile and Desktop Application",
+          "subTitle": "High-Scale Secure Messaging Platform",
           "links": [
             {
               "title": "Google Play",
@@ -15,156 +15,245 @@
               "title": "App Store",
               "linkTo": "https://apps.apple.com/us/app/uchat-messenger/id1578162044"
             },
-            {
-              "title": "Web Page",
-              "linkTo": "https://www.uchat.social/"
-            }
+            { "title": "Web Page", "linkTo": "https://www.uchat.social/" }
           ],
-          "description": "Experience seamless communication with UChat Messenger. Unlimited messages, free calls, and group chats - all in one elegant platform.",
+          "description": "A high-performance messaging app built with Clean Architecture. Features End-to-End Encryption (E2EE), ISAR Database for offline-first capabilities, secure authentication, and real-time VoIP via LiveKit.",
           "tools": [
             "Flutter",
             "Socket.io",
             "LiveKit",
-            "Firebase Service",
-            "GetX",
-            "Unit Test",
-            "Clean Architecture"
+            "ISAR Database",
+            "Clean Architecture",
+            "E2EE",
+            "GetX"
           ],
           "image": "uchat.png"
         },
         {
-          "title": "Skinx",
-          "subTitle": "Mobile Application",
+          "title": "SkinX",
+          "subTitle": "Thailand's Leading Telemedicine App",
           "links": [
             {
               "title": "Google Play",
-              "linkTo": "https://play.google.com/store/apps/details?id=com.scb10x.skinx&referrer=utm_source%3DFacebook%26anid%3Dadmob"
+              "linkTo": "https://play.google.com/store/apps/details?id=com.scb10x.skinx"
             },
             {
               "title": "App Store",
               "linkTo": "https://apps.apple.com/us/app/skinx/id1539622700"
-            },
-            {
-              "title": "Web Page",
-              "linkTo": "https://skinx.app/"
             }
           ],
-          "description": "SkinX is an online dermatologist application. that has gathered dermatologists from leading hospitals and clinics to give advice To treat skin problems online with an End to End Dermatology Platform From seeing a doctor to giving advice, prescribing medications, keeping a history and following up. Providing a wide range of services in skin care, such as acne problems, skin problems, including hair and scalp.",
+          "description": "Leading telemedicine platform with 800k+ downloads. Engineered real-time consultations via Agora and implemented secure e-commerce flows with integrated payment gateways.",
           "tools": [
             "Flutter",
-            "Nest.js",
-            "TypeScript",
-            "Firebase Service",
-            "Google Cloud",
             "Agora",
+            "Firebase",
+            "Nest.js",
             "GetX",
             "Elasitc Search",
+            "GCP",
             "MVVM"
           ],
           "image": "skinx.png"
         },
         {
-          "title": "GG Live (Clone)",
-          "subTitle": "Mobile Application",
-          "description": "GG Live provides you complete and the most updated football news, analyses, stats, and results exclusively to you. (Work assigned during the internship)",
+          "title": "SkinX (Doctor App)",
+          "subTitle": "Specialized Healthcare Delivery Platform",
+          "links": [
+            {
+              "title": "Google Play",
+              "linkTo": "https://play.google.com/store/apps/details?id=com.samawat.doctor"
+            },
+            {
+              "title": "App Store",
+              "linkTo": "https://apps.apple.com/th/app/samawat-doctor/id1532716344"
+            }
+          ],
+          "description": "A dedicated dermatology platform empowering practitioners to deliver seamless care. Features flexible teleconsultation scheduling, secure professional-patient connectivity, and integrated workflows for medical summaries and electronic prescriptions.",
+          "tools": ["Flutter", "Agora", "Firebase", "GetX", "MVVM"],
+          "image": "samawat-doctor.png"
+        },
+
+        {
+          "title": "SkinX Landing",
+          "subTitle": "Official Product Website",
+          "links": [{ "title": "Website", "linkTo": "https://skinx.app/" }],
+          "description": "High-traffic landing page for SkinX, optimized for performance, SEO, and cross-device compatibility using modern web technologies.",
+          "tools": ["Vue.js", "Nest.js", "TypeScript", "Markdown"],
+          "image": "skinx-landing.png"
+        },
+        {
+          "title": "SkinX Doctor",
+          "subTitle": "Medical Practitioner Dashboard",
+          "description": "A secure web portal for doctors featuring real-time patient queue management, e-prescriptions, and medical history visualization.",
+          "tools": [
+            "Vue.js",
+            "Nest.js",
+            "TypeScript",
+            "Firebase",
+            "Google Cloud"
+          ],
+          "image": "skinx-web.png"
+        },
+        {
+          "title": "Rakkar Digital",
+          "subTitle": "Institutional Web & CMS",
+          "links": [
+            { "title": "Website", "linkTo": "https://www.rakkardigital.com/" }
+          ],
+          "description": "Full-stack corporate platform for a digital asset custodian. Developed using Nuxt.js for optimized performance, SEO, and dynamic content management via a custom CMS.",
+          "tools": ["Nuxt.js", "Vue.js", "Firebase", "GCP", "Tailwind CSS"],
+          "image": "rakkar.png"
+        }
+      ]
+    },
+    {
+      "title": "Native & Academic",
+      "projectList": [
+        {
+          "title": "Dessert (Senior Project)",
+          "subTitle": "Psychology-Based Dating App",
+          "links": [
+            {
+              "title": "Google Play",
+              "linkTo": "https://play.google.com/store/apps/details?id=com.maiguy.dessert"
+            }
+          ],
+          "description": "Capstone project: A native Android app using smart matching algorithms and psychology-based scoring. Features real-time chat, geolocation, and ML Kit integration.",
+          "tools": [
+            "Android Native",
+            "Kotlin",
+            "Node.js",
+            "ML Kit",
+            "Firebase"
+          ],
+          "image": "dessert.png"
+        },
+        {
+          "title": "Movie Discovery",
+          "subTitle": "Architecture Study (MVVM)",
+          "description": "Technical exploration of MVVM design patterns using LiveData, Room, and RxJava for efficient data paging and content discovery.",
+          "links": [
+            {
+              "title": "GitHub",
+              "linkTo": "https://github.com/siravit2020/Movie"
+            }
+          ],
+          "tools": ["Android", "Kotlin", "RxJava", "Room", "Retrofit2"],
+          "image": "movie.png"
+        },
+        {
+          "title": "PaperNote",
+          "subTitle": "Smart Utility App (MVP)",
+          "description": "Implementing MVP design pattern with Firestore integration and ML Kit for intelligent text recognition and digital note-taking.",
+          "links": [
+            {
+              "title": "GitHub",
+              "linkTo": "https://github.com/siravit2020/PaperNote"
+            }
+          ],
+          "tools": ["Android", "Kotlin", "MVP", "Firebase", "ML Kit"],
+          "image": "paper-note.png"
+        },
+        {
+          "title": "Todo App",
+          "subTitle": "Modern Android Practices",
+          "description": "Local data persistence implementation using Room and Coroutines, following MVVM architecture for clean code separation.",
+          "links": [
+            {
+              "title": "GitHub",
+              "linkTo": "https://github.com/siravit2020/Todo_App"
+            }
+          ],
+          "tools": ["Android", "Kotlin", "Coroutines", "Room", "SQLite"],
+          "image": "android-todo.png"
+        },
+        {
+          "title": "Library Progress Dialog",
+          "subTitle": "Open-Source Android Library",
+          "description": "A custom Android UI library developed to simplify progress dialog implementations for native mobile developers.",
+          "links": [
+            {
+              "title": "GitHub",
+              "linkTo": "https://github.com/siravit2020/progress-dialog"
+            }
+          ],
+          "tools": ["Java", "Kotlin", "Android SDK"],
+          "image": "android-lib.png"
+        }
+      ]
+    },
+    {
+      "title": "Workshops",
+      "projectList": [
+        {
+          "title": "GG Live Clone",
+          "subTitle": "Real-time Sports Analytics",
+          "description": "Implementation of a live sports analytics platform, focusing on reactive state management and live data synchronization using Riverpod.",
           "links": [
             {
               "title": "Github",
               "linkTo": "https://github.com/siravit2020/gg-live"
-            },
-            {
-              "title": "Google Play",
-              "linkTo": "https://play.google.com/store/apps/details?id=th.co.wawa.ggapplication&hl=th&gl=US"
-            },
-            {
-              "title": "App Store",
-              "linkTo": "https://apps.apple.com/th/app/gg-live/id1529997716"
             }
           ],
-          "tools": [
-            "Flutter",
-            "Firebase Service",
-            "Google Signin",
-            "Riverpod",
-            "Firebase Signin"
-          ],
+          "tools": ["Flutter", "Riverpod", "Firebase", "Google Signin"],
           "image": "gg-preview.png"
         },
         {
           "title": "BIGO Clone",
-          "subTitle": "Mobile Application",
-          "description": "This application is made to study the use of VideoCall with Agora in Flutter (Work assigned during the internship)",
+          "subTitle": "Video Streaming Research",
+          "description": "Technical research on low-latency live broadcasting and audience interaction using Agora.io within the Flutter environment.",
           "links": [
             {
               "title": "Github",
               "linkTo": "https://github.com/siravit2020/flutter_bigo"
             }
           ],
-          "tools": [
-            "Flutter",
-            "Firebase Service",
-            "Agora",
-            "Provider",
-            "Google Sign In"
-          ],
+          "tools": ["Flutter", "Agora", "Provider", "Firebase"],
           "image": "bigo.png"
         },
         {
-          "title": "Clone App CleanHome",
-          "subTitle": "Mobile Application",
-          "description": "This application is made to study the use of calendar libraries in Flutter. and use Firebase services (Work assigned during the internship)",
-          "links": [
-            {
-              "title": "Github",
-              "linkTo": "https://github.com/siravit2020/flutter_clean_home"
-            },
-            {
-              "title": "Adobe XD",
-              "linkTo": "https://www.xdguru.com/house-cleaning-app-xd-template/"
-            }
-          ],
-          "tools": ["Flutter", "Firebase Service"],
-          "image": "clean-home.png"
-        },
-        {
-          "title": "Clone App Ecommerce",
-          "subTitle": "Mobile Application",
-          "description": "Build an application from a given design and use Firebase serivces (Work assigned during the internship)",
+          "title": "CleanHome & Ecommerce Clones",
+          "subTitle": "UI/UX & Flow Research",
+          "description": "Study of complex UI flows, including calendar integration and end-to-end shopping checkout processes.",
           "links": [
             {
               "title": "Github",
               "linkTo": "https://github.com/siravit2020/flutter_ecommerce"
-            },
-            {
-              "title": "Adobe XD",
-              "linkTo": "https://www.xdguru.com/free-xd-mobile-ecommerce-ui-kit/"
             }
           ],
-          "tools": [
-            "Flutter",
-            "Firebase Service",
-            "Google Sigin",
-            "Facebook Sigin"
-          ],
+          "tools": ["Flutter", "Firebase", "UI Kit"],
           "image": "ecommerce-preview.png"
         },
         {
-          "title": "Party Haan",
-          "subTitle": "Mobile Application",
-          "description": "Application Party Hann Clone (Examination when applying for a job with SkinX)",
+          "title": "Party Haan Clone",
+          "subTitle": "Technical Assessment",
+          "description": "A clone application developed for a technical evaluation, focusing on pixel-perfect UI and efficient state management with Provider.",
           "links": [
             {
               "title": "Github",
               "linkTo": "https://github.com/siravit2020/flutter_skinx_siravit"
             }
           ],
-          "tools": ["Flutter", "Provider", "Firebase Service"],
+          "tools": ["Flutter", "Provider", "Firebase"],
           "image": "skinx-test.png"
         },
         {
-          "title": "Minessweeper",
-          "subTitle": "Mobile Application",
-          "description": "Game minessweeper",
+          "title": "Intern Workshop Series",
+          "subTitle": "Hardware & Utility Labs",
+          "description": "Experimental workshop covering SQLite, QR code scanning, Biometric authentication, and PDF generation.",
+          "links": [
+            {
+              "title": "GitHub",
+              "linkTo": "https://github.com/siravit2020/flutter_intern_workshop"
+            }
+          ],
+          "tools": ["Flutter", "SQLite", "Local Auth", "PDF Library"],
+          "image": "intern-preview.png"
+        },
+        {
+          "title": "Minesweeper",
+          "subTitle": "Logic & State Game",
+          "description": "Classic game logic implementation focusing on efficient UI re-rendering and recursive algorithms in Flutter.",
           "links": [
             {
               "title": "GitHub",
@@ -176,34 +265,21 @@
         },
         {
           "title": "Google Ads Tutorials",
-          "subTitle": "Mobile Application",
-          "description": "This application is made for educational purposes about Google AdMob (Work assigned during the internship)",
+          "subTitle": "AdMob Integration Study",
+          "description": "Technical research on mobile monetization strategies and Google AdMob implementation in Flutter.",
           "links": [
             {
               "title": "GitHub",
               "linkTo": "https://github.com/siravit2020/flutter_ads2"
             }
           ],
-          "tools": ["Flutter", "Google Ad Mob"],
+          "tools": ["Flutter", "Google AdMob"],
           "image": "ads.png"
         },
         {
-          "title": "Intern workshop",
-          "subTitle": "Mobile Application",
-          "description": "This application is made for educational purposes about Sqlite, QRcode, Fingerprint, Chart, PDF, libary in Flutter (Work assigned during the internship)",
-          "links": [
-            {
-              "title": "GitHub",
-              "linkTo": "https://github.com/siravit2020/flutter_intern_workshop"
-            }
-          ],
-          "tools": ["Flutter"],
-          "image": "intern-preview.png"
-        },
-        {
-          "title": "Covid19",
-          "subTitle": "Mobile Application",
-          "description": "This application is made for educational flutter widget",
+          "title": "Covid19 Tracker",
+          "subTitle": "Data Visualization Lab",
+          "description": "Real-time tracking application using API integration to visualize global pandemic data with Bloc.",
           "links": [
             {
               "title": "GitHub",
@@ -212,137 +288,6 @@
           ],
           "tools": ["Flutter", "Bloc"],
           "image": "covid.png"
-        }
-      ]
-    },
-    {
-      "title": "Android",
-      "projectList": [
-        {
-          "title": "Dessert",
-          "subTitle": "(Mobile Application Android + Frontend + Backend)",
-          "links": [
-            {
-              "title": "Google Play",
-              "linkTo": "https://play.google.com/store/apps/details?id=com.maiguy.dessert"
-            }
-          ],
-          "description": "Application for finding friends, finding girlfriends, finding people to talk to, matching using smart algorithms. or search for interested people near you Algorithms can find the right person for you. Use psychological questions to calculate the compatibility between you and the person you meet.",
-          "tools": [
-            "Android",
-            "Kotlin",
-            "Vue.js",
-            "Node.js",
-            "JavaScript",
-            "Google AdMob",
-            "Facebook Developer",
-            "ML Kit",
-            "Firebase Service"
-          ],
-          "image": "dessert.png"
-        },
-        {
-          "title": "Movie",
-          "subTitle": "Mobile Application",
-          "description": "This application is made for educational purposes about MVVM design pattern , LiveData , Room data , okHttp , Retrofit2 , Rxjava , Paging , Glide , Gson",
-          "links": [
-            {
-              "title": "GitHub",
-              "linkTo": "https://github.com/siravit2020/Movie"
-            }
-          ],
-          "tools": ["Android", "Kotlin"],
-          "image": "movie.png"
-        },
-        {
-          "title": "PaperNote",
-          "subTitle": "Mobile Application",
-          "description": "This application is made for educational purposes about MVP design pattern , Firebase firstore , Databinding , ML kit , Material Design for android",
-          "links": [
-            {
-              "title": "GitHub",
-              "linkTo": "https://github.com/siravit2020/PaperNote"
-            }
-          ],
-          "tools": ["Android", "Kotlin", "Firebase Service"],
-          "image": "paper-note.png"
-        },
-        {
-          "title": "Todo App",
-          "subTitle": "Mobile Application",
-          "description": "This application is made for educational purposes about MVVM design pattern , LiveData , Room data , Coroutines",
-          "links": [
-            {
-              "title": "GitHub",
-              "linkTo": "https://github.com/siravit2020/Todo_App"
-            }
-          ],
-          "tools": ["Android", "Kotlin", "SQLite"],
-          "image": "android-todo.png"
-        },
-        {
-          "title": "Libary Progress Dialog",
-          "subTitle": "(Android Libary)",
-          "description": "",
-          "links": [
-            {
-              "title": "GitHub",
-              "linkTo": "https://github.com/siravit2020/progress-dialog"
-            }
-          ],
-          "tools": ["Android", "Java", "Kotlin"],
-          "image": "android-lib.png"
-        }
-      ]
-    },
-    {
-      "title": "Web",
-      "projectList": [
-        {
-          "title": "Rakkar digital",
-          "subTitle": "Full Stack",
-          "links": [
-            {
-              "title": "website",
-              "linkTo": "https://www.rakkardigital.com/"
-            }
-          ],
-          "description": "Rakkar Digital is a startup company backed by SCB 10X focusing in digital asset and blockchain space",
-          "tools": ["Nuxt.js", "Firebase", "GCP", "CMS"],
-          "image": "rakkar.png"
-        },
-        {
-          "title": "SkinX",
-          "subTitle": "Full Stack",
-          "links": [
-            {
-              "title": "website",
-              "linkTo": "https://skinx.app/"
-            }
-          ],
-          "description": "SkinX website",
-          "tools": [
-            "Vue.js",
-            "Nest.js",
-            "JavaScript",
-            "TypeScript",
-            "Markdown"
-          ],
-          "image": "skinx-landing.png"
-        },
-        {
-          "title": "Skinx Doctor",
-          "subTitle": "Full Stack",
-          "description": "Web application for doctor in SkinX",
-          "tools": [
-            "Vue.js",
-            "Nest.js",
-            "JavaScript",
-            "TypeScript",
-            "Firebase Service",
-            "Google Cloud"
-          ],
-          "image": "skinx-web.png"
         }
       ]
     }

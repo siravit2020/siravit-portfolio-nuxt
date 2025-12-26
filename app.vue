@@ -1,4 +1,5 @@
 <script setup lang="ts">
+import AppBarComponent from "./src/components/AppBarComponent.vue";
 import AboutMe from "./src/components/AboutSection.vue";
 import EducationSection from "./src/components/EducationSection.vue";
 import ExperienceSection from "./src/components/ExperienceSection.vue";
@@ -31,11 +32,24 @@ useHead({
 </script>
 
 <template>
-  <main>
-    <AboutMe />
-    <ExperienceSection class="mb-20!" />
-    <EducationSection class="mb-20!" />
-    <SkillSection class="mb-20!" />
-    <ProjectSection class="mb-20!" />
-  </main>
+  <div class="dot-pattern min-h-screen">
+    <AppBarComponent />
+    <main class="pt-16">
+      <div id="about">
+        <AboutMe />
+      </div>
+      <div id="experience" class="mb-20!">
+        <ExperienceSection />
+      </div>
+      <div id="education" class="mb-20!">
+        <EducationSection />
+      </div>
+      <div id="skill" class="mb-20!">
+        <SkillSection />
+      </div>
+      <div id="project" class="mb-20!">
+        <ProjectSection />
+      </div>
+    </main>
+  </div>
 </template>
