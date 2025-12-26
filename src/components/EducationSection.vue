@@ -3,26 +3,27 @@ import TopicComponent from "./TopicComponent.vue";
 </script>
 
 <template>
-  <div
-    class="container mx-auto flex flex-col justify-center items-center py-10 px-4 max-w-[64rem]"
+  <section
+    class="container mx-auto flex flex-col justify-center items-center py-10 px-4 max-w-5xl"
+    aria-labelledby="education-heading"
   >
-    <TopicComponent>Education</TopicComponent>
-    <div class="flex flex-row justify-between items-start">
+    <TopicComponent id="education-heading">Education</TopicComponent>
+    <article class="flex flex-row justify-between items-start">
       <div
         class="sm:text-xl text-lg font-bold text-accent mr-4"
         data-aos="fade-left"
       >
-        2017-2021
+        <time datetime="2017/2021">2017-2021</time>
       </div>
       <div class="flex flex-col" data-aos="fade-up">
-        <div class="sm:text-xl text-lg font-bold">
+        <h3 class="sm:text-xl text-lg font-bold">
           KING MONGKUT'S UNIVERSITY OF TECHNOLOGY NORTH BANGKOK
-        </div>
-        <div class="sm:text-xl text-lg text-app-secondary">
+        </h3>
+        <p class="sm:text-xl text-lg text-app-secondary">
           Faculty of Industrial Technology College of Technology Electronics
           Engineering Computer
-        </div>
+        </p>
       </div>
-    </div>
-  </div>
+    </article>
+  </section>
 </template>

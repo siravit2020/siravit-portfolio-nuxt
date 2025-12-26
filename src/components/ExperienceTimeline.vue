@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { ref } from "vue";
+import { ref, onMounted, onUnmounted, type PropType } from "vue";
 import type { Experience } from "../interfaces/Experiences";
 
 const isSmallScreen = ref(false);
@@ -11,6 +11,10 @@ const updateScreenSize = () => {
 onMounted(() => {
   updateScreenSize();
   window.addEventListener("resize", updateScreenSize);
+});
+
+onUnmounted(() => {
+  window.removeEventListener("resize", updateScreenSize);
 });
 
 defineProps({
@@ -25,12 +29,17 @@ defineProps({
   <v-timeline-item v-for="(item, i) in experiences" :key="i" size="small">
     <template v-if="!isSmallScreen" #opposite>
       <div
-        data-aos="fade-up"
+        :data-aos="i % 2 === 0 ? 'fade-right' : 'fade-left'"
         class="sm:text-xl text-lg font-bold w-full"
         v-text="item.year"
       />
     </template>
-    <div data-aos="fade-up" data-aos-delay="50" class="py-7">
+    <div
+      :data-aos="
+        isSmallScreen ? 'fade-up' : i % 2 === 0 ? 'fade-left' : 'fade-right'
+      "
+      data-aos-delay="50"
+    >
       <div v-if="isSmallScreen" class="text-base font-bold mb-2">
         {{ item.year }}
       </div>

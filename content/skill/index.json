@@ -1,82 +1,59 @@
 {
   "body": [
     {
-      "topic": "Languages",
-      "list": [
-        "Dart",
-        "Kotlin",
-        "Java",
-        "JavaScript",
-        "TypeScript",
-        "HTML",
-        "CSS"
-      ]
-    },
-    {
-      "topic": "Frameworks & Libraries",
+      "topic": "Mobile",
       "list": [
         "Flutter",
-        "Vue.js",
-        "Nuxt.js",
-        "Nest.js",
-        "React.js",
-        "Next.js",
-        "Tailwind CSS",
-        "Vuetify",
-        "TypeORM"
+        "Dart",
+        "SwiftUI",
+        "Jetpack Compose",
+        "Native Android (Java/Kotlin)",
+        "iOS (Swift)"
       ]
     },
     {
-      "topic": "Architecture & Design",
-      "list": ["MVVM", "Clean Architecture", "SOLID Principles"]
-    },
-    {
-      "topic": "State Management",
-      "list": ["Bloc", "Riverpod", "Provider", "GetX", "Pinia"]
-    },
-    {
-      "topic": "Testing",
-      "list": ["Unit Testing", "Integration Testing"]
-    },
-    {
-      "topic": "API & SDK Integration",
-      "list": ["Facebook API", "Google Map API", "Agora.io", "Socket.io"]
-    },
-    {
-      "topic": "Database",
+      "topic": "Architecture & State",
       "list": [
-        "Firebase Firestore",
-        "Firebase Realtime Database",
-        "MySQL",
-        "Isar"
+        "Clean Architecture",
+        "MVVM",
+        "SOLID",
+        "Design Systems",
+        "Bloc",
+        "GetX"
       ]
     },
     {
-      "topic": "Cloud & Deployment",
+      "topic": "Real-time/Comms",
+      "list": ["Socket.io", "LiveKit", "Agora.io", "VoIP", "Firebase realtime"]
+    },
+    {
+      "topic": "Web/Backend",
+      "list": [
+        "Nest.js",
+        "Nuxt.js",
+        "Vue.js",
+        "React",
+        "Next.js",
+        "TypeScript",
+        "TypeORM",
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "Tailwind CSS",
+        "Vuetify"
+      ]
+    },
+    {
+      "topic": "Tools/DevOps",
       "list": [
         "Firebase",
-        "Google Cloud Platform (GCP)",
-        "Google Play Store",
-        "Apple App Store"
-      ]
-    },
-    {
-      "topic": "DevOps",
-      "list": ["Git", "CI/CD", "GCP Cloud Build", "GCP Cloud Run", "Codemagic"]
-    },
-    {
-      "topic": "Tools",
-      "list": [
-        "VS Code",
-        "Android Studio",
-        "Postman",
-        "Figma",
-        "Sourcetree",
-        "Jira",
-        "ClickUp",
-        "ChatGPT",
-        "GitHub Copilot",
-        "Widgetbook"
+        "GCP",
+        "CI/CD (Codemagic)",
+        "Cloud Build",
+        "ISAR Database",
+        "Git",
+        "Unit Testing",
+        "MySQL"
       ]
     }
   ]
