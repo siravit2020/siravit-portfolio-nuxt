@@ -24,6 +24,7 @@ const menuItems = [
   { id: "education", title: "Education" },
   { id: "skill", title: "Skill" },
   { id: "project", title: "Projects" },
+  { id: "contact", title: "Contact" },
 ];
 
 const updateActiveTab = () => {
@@ -31,6 +32,17 @@ const updateActiveTab = () => {
   if (isScrolling.value) return;
 
   const scrollPosition = window.scrollY + 150; // offset for better detection
+
+  // Check if user has scrolled to the bottom of the page
+  const isAtBottom =
+    window.innerHeight + window.scrollY >=
+    document.documentElement.scrollHeight - 50;
+
+  if (isAtBottom) {
+    // If at bottom, activate the last menu item
+    activeTab.value = menuItems[menuItems.length - 1].id;
+    return;
+  }
 
   // Find which section is currently in view
   for (let i = menuItems.length - 1; i >= 0; i--) {

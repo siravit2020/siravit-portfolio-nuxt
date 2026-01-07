@@ -5,6 +5,7 @@ import EducationSection from "./src/components/EducationSection.vue";
 import ExperienceSection from "./src/components/ExperienceSection.vue";
 import ProjectSection from "./src/components/ProjectSection.vue";
 import SkillSection from "./src/components/SkillSection.vue";
+import ContactSection from "./src/components/ContactSection.vue";
 
 // SEO Meta Tags
 useSeoMeta({
@@ -27,7 +28,7 @@ useHead({
   htmlAttrs: {
     lang: "en",
   },
-  link: [{ rel: "icon", type: "image/x-icon", href: "/favicon.ico" }],
+  link: [{ rel: "icon", href: "/images/logo-siravit.png", type: "image/png" }],
 });
 </script>
 
@@ -49,6 +50,9 @@ useHead({
       </div>
       <div id="project" class="mb-20!">
         <ProjectSection />
+      </div>
+      <div id="contact" class="mb-20!">
+        <ContactSection />
       </div>
     </main>
   </div>
